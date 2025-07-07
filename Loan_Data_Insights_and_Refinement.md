@@ -1,6 +1,6 @@
-# Loan Default Dataset – Data Understanding & Cleaning
+# Loan Default Dataset – Data Understanding
 
-## Phase 1: Exploratory Data Analysis (EDA) & Cleaning
+## Phase 1: Exploratory Data Analysis (EDA) 
 
 This project performs exploratory data analysis, quality assessment, and data cleaning on the `loan_default` dataset. The goal is to produce a clean dataset ready for machine learning modeling and insights generation.
 
