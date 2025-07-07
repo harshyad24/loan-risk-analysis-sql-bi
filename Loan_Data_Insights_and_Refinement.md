@@ -93,6 +93,48 @@ The cleaned table `loan_default_clean` is suitable for:
 
 ---
 
+## 📈 Key Findings
+
+### 🎯 Default Rate
+
+> **11.61%** of all loans were marked as defaulted
+> (≈ **29,645 defaults** out of **255,347** total loans)
+
+---
+
+### 👥 Age Group Breakdown
+
+| Age Group      | Count  | Percent |
+| -------------- | ------ | ------- |
+| Mature (41–60) | 97,975 | 38.4%   |
+| Middle (25–40) | 78,994 | 30.9%   |
+| Senior (61+)   | 44,202 | 17.3%   |
+| Young (<25)    | 34,176 | 13.4%   |
+
+---
+
+### 💳 Credit Grade Distribution
+
+| Credit Grade     | Count   | Percent |
+| ---------------- | ------- | ------- |
+| Poor (<650)      | 162,766 | 63.8%   |
+| Fair (650–699)   | 23,151  | 9.1%    |
+| Good (700–749)   | 22,856  | 9.0%    |
+| Excellent (750+) | 46,574  | 18.2%   |
+
+---
+
+### 💡 DTI Risk Levels
+
+| DTI Risk Level        | Count   | Percent |
+| --------------------- | ------- | ------- |
+| High Risk (>0.4)      | 157,978 | 61.9%   |
+| Medium Risk (0.2–0.4) | 63,856  | 25.0%   |
+| Low Risk (≤0.2)       | 33,513  | 13.1%   |
+
+
+---
+
 ## 👤 Author
 
 **Prepared by:** Harsh Yadav  
