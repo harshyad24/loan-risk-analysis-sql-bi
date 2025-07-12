@@ -6,6 +6,45 @@ An interactive Power BI dashboard built using SQL and DAX to analyze loan defaul
 
 To identify key risk indicators contributing to loan defaults and build an intuitive, interactive dashboard that enables stakeholders to analyze customer profiles and predict potential defaults.
 
+## 🖼️ Dashboard Screenshots
+
+
+
+
+
+
+
+
+Got it! Here’s that content rewritten in your requested README style format:
+
+---
+
+# Loan Portfolio Analytics Dashboards
+
+This project includes three dashboards aimed at analyzing loan portfolio performance and managing credit risk from a high-level overview down to individual borrower details.
+
+## Executive Summary Dashboard
+
+This dashboard provides leadership with a concise yet comprehensive snapshot of the loan portfolio’s overall performance. It highlights key metrics such as an average credit score of **574.62**, total loans amounting to **\$2 billion**, and an average loan amount of **\$127,790**. With an overall default rate of **12%** (1,569 defaults out of 13,569 loans), the dashboard breaks down default rates by credit grades—revealing that borrowers with Poor and Fair credit grades have significantly higher default risks. The loan purpose distribution identifies which categories (e.g., Auto, Business, Home) carry higher exposure, and the interactive key influencer analysis highlights that borrowers with interest rates above certain thresholds and incomes below **\$83,000** have elevated default probabilities. This empowers executives to focus on priority risk factors and optimize portfolio strategies.
+
+## Risk Overview Dashboard
+
+Focused on detailed risk segmentation, this dashboard examines loan performance across borrower demographics and financial profiles. For example, it reveals that self-employed and unemployed borrowers tend to have larger loan amounts but also exhibit higher default indicators. Income distribution analysis shows wide variability, with increased defaults concentrated in lower income brackets. The marital status breakdown indicates that single borrowers have a slightly higher proportion of defaults compared to married ones. Age and Debt-to-Income (DTI) ratio analyses demonstrate that borrowers in certain age groups with high DTI ratios face increased risk. The default rate gauge reiterates the overall **12%** default rate, while the loan purpose risk bar chart pinpoints that loans for Education and Business purposes experience comparatively higher default rates. These insights support targeted risk mitigation and credit policy refinement.
+
+## Client Profile Dashboard
+
+Designed for in-depth individual loan assessment, this dashboard allows users to drill down into specific borrowers—such as a customer with loan ID **0HGZQKJ36W**, who is 56 years old with an income of **\$126,802** and a PhD education level. The financial trust score is moderate at **2.5 out of 5 stars**, reflecting some risk concerns. The loan details show an amount of **\$155,511** for a Home loan at an interest rate of **8.15%** over 60 months. The radar chart synthesizes multiple risk dimensions like loan amount, credit score (**531**), DTI ratio, and employment duration, facilitating a nuanced evaluation of creditworthiness. This detailed profiling supports more informed lending decisions and proactive management of potentially risky clients.
+
+
+
+## 💡 Key Insights
+
+- Customers with a **Credit Score < 600** and high DTI ratios are **3x more likely** to default
+- **Self-employed individuals** show a slightly higher default rate than full-time employees
+- **Marital status and dependents** have moderate correlation with default risk
+- **Interest rates above 17.95%** significantly increase default probability
+- **Poor credit grade** customers show the highest default rates compared to other grades
+
 ## 🛠️ Tech Stack
 
 - **SQL** - For data transformation and cleaning
@@ -76,44 +115,7 @@ SWITCH(TRUE(),
 StarRating = // Custom logic based on weighted risk factors
 ```
 
-## 🖼️ Dashboard Screenshots
 
-### Executive Summary Page
-
-The Executive Summary provides a high-level overview with:
-- **Key Performance Indicators**: Average Credit Score (574.62), Total Loans (2bn), Average Loan Amount (127.79K), Average Income (83.0K)
-- **Default Rate Overview**: 0.12 (12%) overall default rate with 1,569 defaults vs 12K non-defaults
-- **Credit Grade Analysis**: Default rates by credit grade (Poor, Good, Fair, Excellent)
-- **Loan Purpose Distribution**: Breakdown by Auto, Business, Education, Home, and Other categories
-- **Key Influencers**: Interactive analysis showing factors that increase default risk, including interest rate and income thresholds
-
-### Risk Overview Page
-
-The Risk Overview page focuses on detailed risk analysis:
-- **Employment Impact**: Loan amounts by employment type (Self-employed, Unemployed, Part-time, Full-time) with default indicators
-- **Income Distribution**: Scatter plot showing loan amounts across different income levels
-- **Marital Status Analysis**: Pie chart breakdown of loan distribution by marital status (Single, Married, Divorced)
-- **Age & DTI Risk**: Analysis of loan amounts by age groups and DTI risk levels (High, Low, Medium)
-- **Default Rate Gauge**: Central gauge showing 0.12 default rate
-- **Loan Purpose Risk**: Bar chart showing default rates across different loan purposes
-
-### Client Profile Page
-
-The Client Profile page offers individual customer analysis:
-- **Customer Search**: Search functionality for specific loan IDs (shown: 0HGZQKJ36W)
-- **Applicant Information**: Personal details including age (56), income (126,802), marital status (Married), education (PhD)
-- **Credit Assessment**: Star rating system showing Financial Trust Score (2.5/5 stars)
-- **Loan Details**: Specific loan information including amount (155,511), purpose (Home), interest rate (8.15%), term (60 months)
-- **Risk Analysis Radar Chart**: Multi-dimensional view of customer risk factors including Loan Amount, Income, Credit Score, DTI Ratio, and Employment Duration
-- **Credit Metrics**: Detailed breakdown of credit lines (4), credit score (531), and default status (0)
-
-## 💡 Key Insights
-
-- Customers with a **Credit Score < 600** and high DTI ratios are **3x more likely** to default
-- **Self-employed individuals** show a slightly higher default rate than full-time employees
-- **Marital status and dependents** have moderate correlation with default risk
-- **Interest rates above 17.95%** significantly increase default probability
-- **Poor credit grade** customers show the highest default rates compared to other grades
 
 ## 📁 Project Structure
 
