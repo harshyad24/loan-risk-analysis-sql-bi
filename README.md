@@ -6,24 +6,10 @@ An interactive Power BI dashboard built using SQL and DAX to analyze loan defaul
 
 To identify key risk indicators contributing to loan defaults and build an intuitive, interactive dashboard that enables stakeholders to analyze customer profiles and predict potential defaults.
 
-## 🖼️ Dashboard Screenshots
-
-
-
-
-
-
-
-
-Got it! Here’s that content rewritten in your requested README style format:
-
----
-
-# Loan Portfolio Analytics Dashboards
-
-This project includes three dashboards aimed at analyzing loan portfolio performance and managing credit risk from a high-level overview down to individual borrower details.
+## 🖼️ Dashboard 
 
 ## Executive Summary Dashboard
+![Executive Summary Dashboard](https://github.com/harshyad24/loan-risk-analysis-sql-bi/raw/main/Executive%20summary.png "Executive Summary Dashboard")
 
 This dashboard provides leadership with a concise yet comprehensive snapshot of the loan portfolio’s overall performance. It highlights key metrics such as an average credit score of **574.62**, total loans amounting to **\$2 billion**, and an average loan amount of **\$127,790**. With an overall default rate of **12%** (1,569 defaults out of 13,569 loans), the dashboard breaks down default rates by credit grades—revealing that borrowers with Poor and Fair credit grades have significantly higher default risks. The loan purpose distribution identifies which categories (e.g., Auto, Business, Home) carry higher exposure, and the interactive key influencer analysis highlights that borrowers with interest rates above certain thresholds and incomes below **\$83,000** have elevated default probabilities. This empowers executives to focus on priority risk factors and optimize portfolio strategies.
 
